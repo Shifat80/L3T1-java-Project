@@ -1,5 +1,3 @@
-package src;
-
 /**
  * Represents a flight in the airline booking system
  */

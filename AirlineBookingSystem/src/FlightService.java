@@ -20,14 +20,14 @@ public class FlightService {
      */
     private void initializeFlights() {
         // Adding sample flights
-        availableFlights.add(new Flight("AA100", "New York", "Los Angeles", "09:00", "12:30", 299.99));
-        availableFlights.add(new Flight("AA101", "Los Angeles", "New York", "14:00", "22:30", 349.99));
-        availableFlights.add(new Flight("DL200", "Chicago", "Miami", "08:15", "11:45", 259.99));
-        availableFlights.add(new Flight("DL201", "Miami", "Chicago", "13:30", "16:00", 279.99));
-        availableFlights.add(new Flight("UA300", "San Francisco", "Seattle", "10:30", "12:45", 199.99));
-        availableFlights.add(new Flight("UA301", "Seattle", "San Francisco", "15:00", "17:15", 189.99));
-        availableFlights.add(new Flight("BA400", "London", "Paris", "07:45", "09:15", 159.99));
-        availableFlights.add(new Flight("BA401", "Paris", "London", "11:00", "12:30", 149.99));
+        availableFlights.add(new Flight("BG101", "Dhaka", "Chittagong", "08:00", "09:00", 50.00));
+        availableFlights.add(new Flight("BG102", "Chittagong", "Dhaka", "10:00", "11:00", 50.00));
+        availableFlights.add(new Flight("US-BD201", "Dhaka", "Sylhet", "09:30", "10:30", 45.00));
+        availableFlights.add(new Flight("US-BD202", "Sylhet", "Dhaka", "12:00", "13:00", 45.00));
+        availableFlights.add(new Flight("NOVOAIR301", "Dhaka", "Cox's Bazar", "07:45", "08:45", 60.00));
+        availableFlights.add(new Flight("NOVOAIR302", "Cox's Bazar", "Dhaka", "15:00", "16:00", 60.00));
+        availableFlights.add(new Flight("REGENT401", "Dhaka", "Jessore", "13:00", "13:45", 40.00));
+        availableFlights.add(new Flight("REGENT402", "Jessore", "Dhaka", "17:00", "17:45", 40.00));
     }
 
     /**
